@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    margin: 30px 10px 30px 10px;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.37);
+    border-radius: 10px;
+  }
+  header div {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 5rem 1rem 5rem;
+  }
+  header h1 {
+    font-size: 1.9rem;
+  }
+  header p {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  #img-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+    /* padding: 50px; */
+  }
+  #img-div #image {
+    height: 60vh;
+    width: 70vw;
+    align-self: center;
+    padding-bottom: 20px;
+  }
+  #image-caption {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #tribute-info div h2 {
+    text-align: center;
+    padding: 50px;
+    display: block;
+    /* text-align: center; */
+  }
+  ul {
+    width: 60vw;
+    align-self: center;
+  }
+  ul li {
+    color: rgb(88, 85, 85);
+    font-size: 1.2rem;
+    padding: 9px;
+  }
+
+  span {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+  ul p {
+    color: rgb(88, 85, 85);
+    font-size: 1.3rem;
+    padding-top: 3rem;
+    font-style: italic;
+  }
+  #tribute-link {
+    font-size: 1.2rem;
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+  }
